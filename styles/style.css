@@ -112,6 +112,7 @@ header {
 /* My Plans Styles */
 
 .my-plans {
+  margin-top: 130px;
 }
 
 .my-plans-title {
@@ -122,4 +123,66 @@ header {
   line-height: 47px;
   text-align: center;
   color: #151414;
+  margin-bottom: 150px;
+}
+
+.my-plans-container{
+    display: flex;
+    gap: 100px;
+}
+.my-plans-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-plans-item h3 {
+  margin: 16px 0 16px 0;
+  color: #151414;
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+
+}
+
+.my-plans-item img {
+  width: 92.96px;
+}
+.my-plans-item p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #737272;
+}
+
+/* cta styles */
+
+.cta{
+    
+    margin-top: 130px;
+    padding: 60px 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+border-radius: 8px ;
+
+}
+
+.cta-title{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
+margin-bottom: 24px;
 }
