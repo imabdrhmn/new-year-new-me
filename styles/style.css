@@ -1,123 +1,125 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
 }
-.max-width{
-    max-width: 1140px;
-    margin: auto;
 
-    
+.max-width {
+  max-width: 1140px;
+  margin: auto;
 }
 
 /* Hero Styles */
-header{
-    background-image: url("../images/banner/banner3.png");
-
+header {
+  background-image: url("../images/banner/banner3.png");
 }
 
 .hero {
-    height: 808px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  height: 808px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .hero-title {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 76px;
-    text-align: right;
-    margin-top: 216px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  margin-top: 216px;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero-description {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 
-    text-align: right;
+  text-align: right;
 
-    color: #FFFFFF;
-    max-width: 500px;
-    margin: 30px 0;
-
+  color: #ffffff;
+  max-width: 500px;
+  margin: 30px 0;
 }
 
 .btn-primary {
-    
-    padding: 16px 24px;
-    background-color: #FFFFFF;
-    border: none;
-    border-radius: 5px;
-
-
-
+  padding: 16px 24px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
 }
+
 .btn-primary a {
-    text-decoration: none;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: right;
-    color: #005FAC;
+  text-decoration: none;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  color: #005fac;
 }
 
 /* About me styles */
 
-.about-me{
-    display: flex;
-    gap: 88px;
-    margin-top: 130px;
-    display: flex;
-    align-items: center;
+.about-me {
+  display: flex;
+  gap: 88px;
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
 }
 
-.about-me div ul{
-    list-style: url("../images/icons/list-style.svg");
+.about-me div ul {
+  list-style: url("../images/icons/list-style.svg");
 }
 
 .about-me .content h2 {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;    
-    color: #151414;
-    
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
 }
 
 .about-me .content p {
-    font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-margin: 24px 0 16px 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 24px 0 16px 0;
 
-color: #444343;
+  color: #444343;
 }
+
 .about-me .content ul li {
-    font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 
-
-color: #444343;
+  color: #444343;
 }
 
 /* My Plans Styles */
 
-.my-plans{
-    
+.my-plans {
+}
+
+.my-plans-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #151414;
 }
